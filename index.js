@@ -1,6 +1,6 @@
 var request = require("request"),
-  debug = require("debug")("osm-taskmanager-client");
-sprintf = require("sprintf");
+  debug = require("debug")("osm-taskmanager-client"),
+  sprintf = require("sprintf");
 
 module.exports = client;
 
@@ -13,7 +13,7 @@ var request = request.defaults({
 
 function client() {
   if (!(this instanceof client)) {
-    return new client()
+    return new client();
   }
   this.baseUrl = "http://tasks.hotosm.org";
 

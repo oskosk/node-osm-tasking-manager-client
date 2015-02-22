@@ -23,24 +23,24 @@ A client for getting OpenStreetMap Tasking Manager projects data
 
 #### client.tasks(projectId, cb)
 
-* `projectId`: The projectId
-* `cb(err, data)`: 
- * `err`: Null if nothing bad happened
- * `data`: JSON containing tasks available for the project
+* `projectId` - The projectId
+* `cb(err, data)` - Called on API response
+  * `err` - Null if nothing bad happened
+  * `data` - JSON containing tasks available for the project
 
 #### client.contributors(projectId, cb)
 
-* `projectId`: The projectId
-* `cb(err, data)`: 
- * `err`: Null if nothing bad happened
- * `data`: JSON containing contributos for the project
+* `projectId` - The projectId
+* `cb(err, data)` - Called on API response
+  * `err` - Null if nothing bad happened
+  * `data` - JSON containing contributos for the project
 
 #### client.stats(projectId, cb)
 
-* `projectId`: The projectId
-* `cb(err, data)`: 
- * `err`: Null if nothing bad happened
- * `data`: JSON containing stats for the project
+* `projectId` - The projectId
+* `cb(err, data)` - Called on API response
+  * `err` - Null if nothing bad happened
+  * `data` - JSON containing stats for the project
 
 
 ## License
